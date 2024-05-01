@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin:0;
+                font-family: "Open Sans", sans-serif;
+                font-style: normal;
+            }
+            .main {
+                display:flex;
+                gap: 10px
+            }
+            .wrapper-left {
+                width:50%;
+                padding: 80px;
+                min-height: 400px;
+                background-color:#f5f5f5;
+                
+            }
+            .wrapper-right {
+                padding: 80px;
+                width:50%;
+                background-color:#c0a58f;
+                min-height: 400px;
+            }
+            .text-wrapper{
+                background-color: rgb(255, 255, 255);
+                padding: 20px;
+            }
+            .profile-picture{
+                background-image: url(assets/IMG_4915.jpeg);
+                background-position: 240px 280px;
+                background-size: 100%;
+                padding: 20px;
+                height: 120px;
+                width: 120px;
+                box-sizing: border-box;
+                flex-shrink: 0;
+                filter: grayscale(.4);
+            }
+            .theme-picture{
+                background-image: url(assets/bg.avif);
+                background-size: 210%;
+                background-position-y: 70%;
+                height: 360px;
+                width: 240px;
+                box-sizing: border-box;
+            }
+            .small-block{
+                background-image: url(assets/thread.avif);
+                background-size: 380%;
+                /* background: #b3a59a; */
+                height: 120px;
+                width: 120px;
+                background-position: 0px -20px;
+                box-sizing: border-box;
+            }
+            .corner{
+                background-image: url(assets/fabric.avif);
+                background-size: 210%;
+                height: 120px;
+                width: 120px;
+                background-position: -100px -220px;
+                box-sizing: border-box;
+            }
+            .title {
+                font-size: 18px;
+                font-weight: 100;
+                color: #5f5851;
+                margin-bottom: 5px;
+            }
+            .sub-title {
+                font-size: 14px;
+                font-weight: 100;
+                color: #ffffff;
+                margin-bottom: 5px;
+            }
+            .lower-right {
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main"> 
+            <div class="wrapper-left"> 
+                <div class="text-wrapper">
+                    <h1>Portfolio</h1>
+                    <p>As a dedicated textile teacher with a passion for creativity and problem-solving,
+                        I am embarking on an exciting journey into Software Development.
+                        My background in education has taught me communication skills, attention to detail, and ability to adapt to new challenges.
+                        </p>
+                        <p>Now, I am eager to leverage these skills in the field of technology.</p>
+                </div>
+            </div>
+            <div class="wrapper-right">
+                <div  class="upper-right">
+                    <div class="title">Mercy Yohannes</div>
+                    <div class="sub-title">Textile Teacher, Entrepreneur</div>
+                </div>
+                <div class="lower-right">
+                    <div class="theme-picture"></div>
+                    <div>
+                        <div class="profile-picture"></div>
+                        <div class="small-block"></div>
+                        <div class="corner"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
